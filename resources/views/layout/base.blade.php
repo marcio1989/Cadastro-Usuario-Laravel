@@ -7,6 +7,11 @@
     <title>{{ config('app.name') }} :: @yield('title')</title>
 </head>
 <body>
+
+    <div class="logo">
+        <img src="" alt="">
+    </div>
+
     <div class="container">
         @yield('conteudo')
     </div>
